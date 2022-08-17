@@ -23,7 +23,7 @@ If you are a bit impatient you can check the [selected WebXR features](/divingDe
 If you are using the [base WebXR experience helper](/divingDeeper/webXR/webXRExperienceHelpers) a features manager will be created for you and will be available in `xrBaseHelper.featuresManager`. If not, you only need to provide an XR session manager object to initialize a new one:
 
 ``` javascript
-const fm = new FeaturesManager(xrSessionManager);
+const fm = new WebXRFeaturesManager(xrSessionManager);
 ```
 
 Note that even before creating the features manager you could call its static methods (check availability, register a new feature, etc.).
